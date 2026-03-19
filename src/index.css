@@ -1,0 +1,29 @@
+// Aqui no index.css é o css global da aplicação. No App.css você vai ter o css de coisas específicas
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #1b1b32;
+  color: #fff;
+  font-family: Tahoma;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+p {
+  color: red;
+  font-size: 0.8rem;
+}
